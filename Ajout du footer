@@ -1,3 +1,13 @@
+<div id="api-banner">
+  <p><strong>🔑 Clé API Anthropic requise</strong><br>
+  Ce site utilise l'IA Claude. Entrez votre clé API pour activer les fonctionnalités.<br>
+  Obtenez une clé sur <strong>console.anthropic.com</strong></p>
+  <div class="api-row">
+    <input id="api-input" type="password" placeholder="sk-ant-api03-…"/>
+    <button id="api-save-btn" onclick="saveApiKey()">Activer ✓</button>
+  </div>
+  <div id="api-status" class="status-msg"></div>
+</div>
 <footer>
   L'Assistant Inclusion · Propulsé par
   <a href="https://anthropic.com" target="_blank">Claude (Anthropic)</a>
